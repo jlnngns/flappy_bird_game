@@ -20,7 +20,7 @@ class Game:
 
         self.bird = Bird()
         self.pipe_manager = PipeManager()
-        self.ui = UIManager()
+        self.ui = UIManager(self.font)
 
         self.score = 0
         self.high_score = 0
